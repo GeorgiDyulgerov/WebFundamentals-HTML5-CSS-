@@ -1,0 +1,123 @@
+body{
+    font-family: Tahoma, Helvetica, sans-serif;
+    font-size: 15px;
+    text-align: left;
+}
+#wrapper{
+    width: 960px;
+    height: 680px;
+    padding: 40px;
+    padding-top: 30px;
+    margin: 0 auto;
+    background-color: #a8dadc ;
+}
+#contact-us{
+    font-family: Helvetica;
+    width: 230px;
+    height: 635px;
+    padding: 40px;
+    padding-top: 0;
+    font-size: 13px;
+    float: left;
+    background-color: #1d3557;
+    color: #f1faee;
+
+}
+
+#contact-us > h4{
+    font-size: 35px;
+    margin-bottom: 0;
+    color: #a8dadc;
+}
+
+main{
+    width: 590px;
+    float: right;
+    padding:30px;
+    background-color: #f1faee;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+span{
+    float: right;
+}
+
+#email-form > input{
+    width: 590px;
+    height: 30px;
+    border: ridge #e63946;
+}
+
+#email-form > span{
+    color: #e63946;
+    margin-bottom: 5px;
+}#email-form > p{
+    color: #e63946;
+    margin-top: 10px;
+}
+ #number-input{
+     display: block;
+     width: 590px;
+     height: 30px;
+     clear: both;
+ }
+
+#number-input > input{
+    margin-top: 5px;
+    width: 300px;
+    height: 30px;
+    float: right;
+    border: ridge #a8dadc;
+}
+#number-input > input#code{
+    display: block;
+    width: 150px;
+    height: 30px;
+    float: left;
+    border: ridge #a8dadc;
+}
+
+.optional{
+    color: #C1C8D1;
+}
+textarea{
+    margin-top: 5px;
+    width: 590px;
+}
+#contact-form > span{
+    float: left;
+    display: block;
+    clear: both;
+    margin-left: 20px;
+}
+#checkbox{
+    padding-top: 20px;
+    display: block;
+    clear: both;
+    margin: 20px;
+    font-size: 13px;
+    text-align: left;
+
+}
+a{
+     color: #e63946;
+ }
+form>p{
+    font-size: 13px;
+}
+label{
+    display: block;
+    float: left;
+    clear: right;
+}
+
+button{
+    width:590px;
+    height: 40px;
+    color: #f1faee;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #e63946;
+    border: #e63946;
+}
